@@ -32,6 +32,8 @@ test('WID 추출 확인', async ({ page }) => {
   await page.getByRole('button', { name: '로그인' }).click();
   await page.waitForTimeout(5000);
 
+  // 자동화 실행 시, 비정상적 감지로 인해 인증이 필요하나, 인증과정 스킵가능한 것으로 확인하여 인증번호 수기 입력해주었음
+  
   // 마이페이지 진입
   await page.getByRole('button', { name: 'global more' }).click();
   await page.waitForTimeout(3000); // WID 응답 기다림
