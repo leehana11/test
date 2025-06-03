@@ -1,5 +1,11 @@
 # WID 추출 과제
 
+구조 설명
+- tests/SignLoginWID.spec.js, loginWID.spec.js
+- README : 과제 설명
+- Result.JPG : 테스트 결과 참고 이미지
+
+
 # SignLoginWID.spec.js
 회원가입 후 로그인하여 마이페이지 진입 후 WID 확인
 - 회원가입 후 이메일 인증 단계는 자동화에서 제외하고 수기로 진행하였습니다.
