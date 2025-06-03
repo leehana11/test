@@ -1,7 +1,7 @@
 # WID 추출 과제
 
 구조 설명
-- tests/SignLoginWID.spec.js, loginWID.spec.js
+- tests/ : SignLoginWID.spec.js, loginWID.spec.js
 - README : 과제 설명
 - Result.JPG : 테스트 결과 참고 이미지 
 
